@@ -1,0 +1,58 @@
+.button-class {
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-alignment: center;
+	-fx-background-radius: 50px;
+	-fx-pref-width: 400;
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+.play-button {
+    -fx-background-color:  #a5dda0;
+}
+
+.scoreboard-button {
+    -fx-background-color:  #fd8888;
+}
+
+.exit-button {
+    -fx-background-color:  #5a88c6;
+}
+
+.play-button:hover{
+    -fx-background-color: #79db70;
+}
+
+.scoreboard-button: hover{
+    -fx-background-color: #f76363;
+}
+
+.exit-button: hover{
+    -fx-background-color: #296ecc;
+}
+
+.back-button {
+    -fx-background-radius: 50px;
+    -fx-background-color: #E8BE7F;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.player {
+    -fx-font-size: 20px;
+}
+
+/*.cards {
+    -fx-border-width: 2px;
+    -fx-transition-duration: 0.2s;
+}
+
+.cards:hover {
+    -fx-border-width: 4px;
+}*/
+
+.scoreLabel {
+    -fx-text-alignment: center;
+}
